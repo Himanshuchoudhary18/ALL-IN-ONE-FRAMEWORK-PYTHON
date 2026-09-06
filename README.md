@@ -1,5 +1,8 @@
 # Python QA All-in-One Framework
 
+For the visible Shoes search and INR 2,000 price-filter example, see [AMAZON-DEMO.md](AMAZON-DEMO.md).
+Run it from this folder with `.\run-amazon.ps1`.
+
 Python 3.11+ framework for web, API, SQL/NoSQL, SSH, test data, reporting and performance automation.
 Python execution requires no Maven or JDK. This clean export contains only the Python framework,
 examples, configuration templates, CI definitions and documentation. Legacy Java files and Git history
