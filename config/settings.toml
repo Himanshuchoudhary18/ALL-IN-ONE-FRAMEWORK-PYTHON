@@ -1,0 +1,15 @@
+[default]
+browser = "chrome"
+headless = true
+timeout = 15
+page_load_timeout = 60
+reports_dir = "reports"
+
+[environments.local]
+# Local self-tests supply their own HTTP server.
+
+[environments.uat]
+# Supply QA_BASE_URL and QA_API_URL for your TPDDL UAT applications.
+
+[environments.staging]
+# Environment-specific non-secret defaults can be added here.
